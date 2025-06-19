@@ -10,7 +10,7 @@
  - Suriel Jacobsen
  - Tiago Zardin
 
-🏗️ Visão Geral da Arquitetura
+# 🏗️ Visão Geral da Arquitetura
 
 <p align="left">
   <img src="./docs/architecture.png" width="400"/>
@@ -25,11 +25,9 @@ Diretório principal do código-fonte. Todos os arquivos TypeScript ficam organi
 ## 📁 config/
 Responsável pelas configurações globais do projeto, como:
 
-URLs base de APIs externas
-
-Timeout de requisições
-
-Carregamento de variáveis de ambiente (dotenv)
+- URLs base de APIs externas
+- Timeout de requisições
+- Carregamento de variáveis de ambiente (dotenv)
 
 🔧 Exemplo: api.ts exporta uma instância do Axios configurada com baseURL da API de produtos.
 
@@ -71,7 +69,7 @@ Reúne funções utilitárias genéricas que podem ser reutilizadas em qualquer 
 
 📘 Exemplo: product.d.ts define a interface Product, garantindo que todos os dados de produtos tenham a estrutura correta.
 
-📄 index.ts
+## 📄 index.ts
 É o ponto de entrada da aplicação.
 Aqui são iniciadas:
 
@@ -81,11 +79,10 @@ O servidor Express
 
 As rotas
 
-🌐 .env
+# 🌐 .env
 Arquivo para definir variáveis de ambiente, como a URL da API de produtos:
 
-`API_BASE_URL=https://api.exemplo.com/products
-PORT=3000`
+`API_BASE_URL=https://api.exemplo.com/products PORT=3000`
 
 # Visão Geral da comunicação
 

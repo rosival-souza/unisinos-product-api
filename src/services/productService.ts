@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const api = axios.create({
-  baseURL: process.env.API_BASE_URL,
+  baseURL: process.env.API_BASE_URL || 'https://api.binance.com/api/v3/ticker',
 });
 
 export const getAllPrices = async () => {

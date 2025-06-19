@@ -1,14 +1,14 @@
-# Consumindo uma API para um Produto
-<p align="left">
-  <img src="./docs/unisinos.png" width="100"/>
-</p>
-
-# Alunos Grupo (03)
+# Pós-Graduação em Engenharia de Software - Alunos Grupo (03)
  - Rosival de Souza
  - Felipe Griep
  - Giulia Mendes
  - Suriel Jacobsen
  - Tiago Zardin
+
+# Consumindo uma API para um Produto
+<p align="left">
+  <img src="./docs/unisinos.png" width="100"/>
+</p>
 
 # 🏗️ Visão Geral da Arquitetura
 
@@ -89,11 +89,27 @@ Arquivo para definir variáveis de ambiente, como a URL da API de produtos:
 ![Arquitetura do Projeto](./docs/vision-comunication.png)
 
 
-# Instalações Necessárias
+# Instalações obrigatórias para rodar o Projeto 
+
+- Plataformas (Windows, Linux, MacOS)
+
+- Instalar NodeJS: https://nodejs.org/en/download (Obrigatório)
+
+- Executar os comandos de instalações abaixo: (Obrigatório)
 
 `$ npm install axios express dotenv`
 
 `$ npm install -D typescript ts-node-dev @types/node @types/express`
 
-`$ npm install`
+`$ npm install`<br/>
+
+- Build Projeto (Opcional)<br/>
+`$ npm run buld`<br/>
+`$ npm start`
+
+- Rodar o projeto (Obrigatório)<br/>
+`$ npm run dev`<br/>
+
+- Visualizar a Aplicação (Obrigatório)<br/>
+`http://localhost:3000/api/products`<br/>
 

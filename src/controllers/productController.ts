@@ -7,9 +7,6 @@ export const fetchProducts = async (req: Request, res: Response) => {
     try {
 
         const products = await getAllPrices();
-
-        console.log('products ->', products)
-
         res.json(products);
 
     } catch (error) {

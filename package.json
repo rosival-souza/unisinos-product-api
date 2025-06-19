@@ -1,0 +1,32 @@
+{
+  "name": "unisinos-product-api",
+  "version": "1.0.0",
+  "description": "Consumindo uma API de Produtos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosival-souza/unisinos-product-api.git"
+  },
+  "author": "Pos-graduação Unisinos 2025 - Grupo 03",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosival-souza/unisinos-product-api/issues"
+  },
+  "homepage": "https://github.com/rosival-souza/unisinos-product-api#readme",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}

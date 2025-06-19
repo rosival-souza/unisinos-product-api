@@ -1,6 +1,8 @@
 # Consumindo uma API para um Produto
+<p align="left">
+  <img src="./docs/unisinos.png" width="100"/>
+</p>
 
-![Unisinos](./docs/unisinos.png)
 # Alunos Grupo (03)
  - Rosival de Souza
  - Felipe Griep
@@ -10,9 +12,12 @@
 
 🏗️ Visão Geral da Arquitetura
 
-![Arquitetura do Projeto](./docs/architecture.png)![Arquitetura do Projeto View](./docs/architecture-view.png)
+<p align="left">
+  <img src="./docs/architecture.png" width="400"/>
+  <img src="./docs/architecture-view.png" width="300"/>
+</p>
 
-A arquitetura foi projetada seguindo os princípios de separação de responsabilidades (SoC - Separation of Concerns) e escalabilidade. A estrutura divide o projeto em camadas bem definidas, facilitando a manutenção, testes e crescimento da aplicação.
+- A arquitetura foi projetada seguindo os princípios de separação de responsabilidades (SoC - Separation of Concerns) e escalabilidade. A estrutura divide o projeto em camadas bem definidas, facilitando a manutenção, testes e crescimento da aplicação.
 
 ## 📁 src/
 Diretório principal do código-fonte. Todos os arquivos TypeScript ficam organizados aqui.
@@ -89,7 +94,7 @@ PORT=3000`
 
 # Instalações Necessárias
 
-`$npm install axios express dotenv`
+`$ npm install axios express dotenv`
 
 `$ npm install -D typescript ts-node-dev @types/node @types/express`
 

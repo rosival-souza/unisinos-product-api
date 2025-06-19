@@ -96,11 +96,8 @@ Arquivo para definir variáveis de ambiente, como a URL da API de produtos:
 - Instalar NodeJS: https://nodejs.org/en/download (Obrigatório)
 
 - Executar os comandos de instalações abaixo: (Obrigatório)
-
-`$ npm install axios express dotenv`
-
-`$ npm install -D typescript ts-node-dev @types/node @types/express`
-
+`$ npm install axios express dotenv`<br/>
+`$ npm install -D typescript ts-node-dev @types/node @types/express`<br/>
 `$ npm install`<br/>
 
 - Build Projeto (Opcional)<br/>

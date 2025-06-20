@@ -14,7 +14,7 @@
 
 <p align="left">
   <img src="./docs/architecture.png" width="400"/>
-  <img src="./docs/architecture-view.png" width="300"/>
+  <img src="./docs/architecture-view1.png" width="300"/>
 </p>
 
 - A arquitetura foi projetada seguindo os princípios de separação de responsabilidades (SoC - Separation of Concerns) e escalabilidade. A estrutura divide o projeto em camadas bem definidas, facilitando a manutenção, testes e crescimento da aplicação.
@@ -95,13 +95,13 @@ Arquivo para definir variáveis de ambiente, como a URL da API de produtos:
 
 - Instalar NodeJS: https://nodejs.org/en/download (Obrigatório)
 
-- Executar os comandos de instalações abaixo: (Obrigatório)
+- Executar os comandos de instalações abaixo: (Obrigatório)<br/>
 `$ npm install axios express dotenv`<br/>
 `$ npm install -D typescript ts-node-dev @types/node @types/express`<br/>
 `$ npm install`<br/>
 
 - Build Projeto (Opcional)<br/>
-`$ npm run buld`<br/>
+`$ npm run build`<br/>
 `$ npm start`
 
 - Rodar o projeto (Obrigatório)<br/>

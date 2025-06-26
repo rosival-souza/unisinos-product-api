@@ -110,3 +110,6 @@ Arquivo para definir variáveis de ambiente, como a URL da API de produtos:
 - Visualizar a Aplicação (Obrigatório)<br/>
 `http://localhost:3000/api/products`<br/>
 
+# Video do Projeto
+[Assista ao vídeo](./docs/video.webm)
+

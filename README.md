@@ -14,7 +14,7 @@
 
 <p align="left">
   <img src="./docs/architecture.png" width="400"/>
-  <img src="./docs/fluxo.drawio.png" width="500"/>
+  <img src="./docs/fluxo.drawio.png" width="400"/>
 </p>
 
 - A arquitetura foi projetada seguindo os princípios de separação de responsabilidades (SoC - Separation of Concerns) e escalabilidade. A estrutura divide o projeto em camadas bem definidas, facilitando a manutenção, testes e crescimento da aplicação.
@@ -110,6 +110,6 @@ Arquivo para definir variáveis de ambiente, como a URL da API de produtos:
 - Visualizar a Aplicação (Obrigatório)<br/>
 `http://localhost:3000/api/products`<br/>
 
-# Video do Projeto
-[Assista ao vídeo](./docs/video.webm)
+# 🎥 Assista o vídeo do Projeto
+[Baixe o vídeo para assitir nesse link (Aprox: 10MB):](./docs/video.webm)
 

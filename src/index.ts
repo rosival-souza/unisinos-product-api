@@ -13,4 +13,5 @@ app.use('/api', productRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+  console.log(`Please access this URL to see the products: http://localhost:3000/api/products`);
 });

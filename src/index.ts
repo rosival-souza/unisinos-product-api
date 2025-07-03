@@ -13,5 +13,6 @@ app.use('/api', productRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-  console.log(`Please access this URL to see the products: http://localhost:3000/api/products`);
+  console.log(`👉 Please access this URL to see the products: http://localhost:3000/api/products`);
+  console.log('👉 To persist the consumer API data please call the post of this URL: $ curl -X POST http://localhost:3000/api/products')
 });
